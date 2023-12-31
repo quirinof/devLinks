@@ -15,6 +15,7 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -38,6 +39,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li a{
@@ -49,7 +52,7 @@ ul li a{
 
   background: rgba(255, 255, 255, 0.10);
   border: 1px solid rgba(255, 255, 255, 0.50);
-  border-radius: 27px;
+  border-radius: 7px;
 
   backdrop-filter: blur(4px);
 
@@ -60,10 +63,17 @@ ul li a{
 }
 
 /* pseudo-selector */
-
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid #FFF;
+}
+
+#social-links {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding: 24px;
+  font-size: 24px;
 }
 
 
