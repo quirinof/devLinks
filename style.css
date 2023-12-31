@@ -35,12 +35,15 @@ body * {
 /* lista */
 ul {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
-ul li {
+ul li a{
   border: 1px solid skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
 }
+
+
 
