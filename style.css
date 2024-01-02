@@ -11,6 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.20);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -20,6 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.10);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -37,6 +39,7 @@ body * {
   padding: 0 24px;
 }
 
+/* profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -52,7 +55,16 @@ body * {
   margin-top: 8px;
 }
 
-/* lista */
+/* switch */
+#switch button{
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 9999px;
+}
+
+/* list */
 ul {
   list-style: none;
   display: flex;
