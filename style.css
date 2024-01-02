@@ -64,6 +64,17 @@ body * {
   border-radius: 9999px;
 }
 
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  border-radius: 9999px;
+  border: 1px solid var(--stroke-color);
+  background: var(--surface-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
 /* list */
 ul {
   list-style: none;
@@ -85,6 +96,7 @@ ul li a{
   border-radius: 27px;
 
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
   text-decoration: none;
   font-weight: bold;
